@@ -65,5 +65,11 @@ public class Principal {
         System.out.println("La primera pelicula es: " + listaDePeliculas.get(0).getNombre());
 
         System.out.println(listaDePeliculas);
+
+        if (listaDePeliculas.contains(peliculaDeBruno)) {
+            System.out.println("La lista contiene la película de Bruno");
+        }else {
+            System.out.println("La lista no contiene la película de Bruno");
+        }
+        }
     }
-}
